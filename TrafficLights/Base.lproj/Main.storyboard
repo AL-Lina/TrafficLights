@@ -53,6 +53,9 @@
                                         <integer key="value" value="20"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tapButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="TBg-Hl-IyY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -66,6 +69,12 @@
                             <constraint firstItem="rr0-9c-B22" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="25:112" id="lll-r1-Bm8"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenLight" destination="Tdj-GL-7Cr" id="Qcj-IS-GtU"/>
+                        <outlet property="redLight" destination="4C3-16-8NQ" id="vXK-xL-2pn"/>
+                        <outlet property="startButton" destination="rr0-9c-B22" id="5eT-hq-zcz"/>
+                        <outlet property="yellowLight" destination="thv-9J-Oi6" id="U1J-6H-MtY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
